@@ -1,0 +1,182 @@
+#rssContainer {
+	width:1791px;
+	height:97px;
+	left:118px;
+	top:975px;
+	z-index:5;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	align-content: center;
+}
+
+.rss {
+	width:1791px;
+	height:97px;
+	left:118px;
+	top:1023px;
+	background:rgb(157, 10, 14);
+}
+
+#BBC_Title_Static {
+	width:108px;
+	height:97px;
+	left:10px;
+	top:975px;
+	z-index:1;
+	position:absolute;
+	background:rgb( 5, 5, 167);
+	background-size:contain;
+	border-color:rgb( 5, 5, 167);
+}
+
+#left_border {
+	width:415px;
+	height:1059px;
+	left:0px;
+	top:0px;
+	z-index:0;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	background-size:contain;
+}
+
+#slides {
+	width:1525px;
+	height:975px;
+	left:395px;
+	top:0px;
+	z-index:10;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	background-size:contain;
+	overflow: hidden;
+}
+
+#clock_widget_outer {
+	width:264px;
+	height:97px;
+	left:121px;
+	top:15px;
+	margin: 15px 0px 0px; 
+	display: inline-block; 
+	text-align: center;
+}
+
+#clock_widget_inner {
+	display: inline-block; 
+	padding: 2px 4px; 
+	margin: 0px 0px 5px; 
+	border: 1px solid 
+	rgb(204, 204, 204); 
+	text-align: center; 
+	background-color: rgb(157, 10, 14);
+}
+
+#clock_widget_a {
+	text-decoration: none; 
+	font-size: 13px; 
+	color: rgb(255, 255, 255);
+}
+
+#traffic_widget {
+	width:375px;
+	height:345px;
+	left:10px;
+	top:628px;
+	z-index:6;
+	position:absolute;
+	background:rgb(25, 2, 255);
+	background-size:contain;
+}
+
+#glasLive {
+	width:375px;
+	height:345px;
+	left:10px;
+	top:167px;
+	z-index:7;
+	position:absolute;
+	background:rgb(5, 255, 25);
+	background-size:contain;
+}
+
+#glasLiveTitle {
+	width:375px;
+	height:50px;
+	left:10px;
+	top:115px;
+	z-index:8;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	background-size:contain;
+	color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	font: 40px 'ChunkFiveRegular';
+}
+}
+
+#mapTitle {
+	width:375px;
+	height:50px;
+	left:10px;
+	top:575px;
+	z-index:9;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	background-size:contain;
+	color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	font: 40px 'ChunkFiveRegular';
+}
+
+#goToGlasLive {
+	width:375px;
+	height:50px;
+	left:10px;
+	top:513px;
+	z-index:10;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	background-size:contain;
+	color: #fff;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 2px 0px #777, 0px 2px 0px #666, 0px 3px 0px #555, 0px 3px 0px #444, 0px 3px 0px #333, 0px 4px 0px #001135;
+	font: 20px 'ChunkFiveRegular';
+}
+
+#cicaTV {
+	width:108px;
+	height:97px;
+	left:10px;
+	top:15px;
+	z-index:11;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	background-size:contain;
+}
+
+body {
+	width:1920px;
+	height:1080px; 
+	margin: 0;
+	overflow: hidden;
+	background:rgb(157, 10, 14);
+}
+
+#cicalogo {
+	-webkit-filter: contrast(4);
+  filter: contrast(4);
+  -webkit-filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.9));
+  filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.9));
+  border-radius: 15px;
+}
+
+#bbcNews {
+	width:108px;
+	height:97px;
+	left:10px;
+	top:975px;
+	z-index:11;
+	position:absolute;
+	background:rgb(157, 10, 14);
+	background-size:contain;
+}
