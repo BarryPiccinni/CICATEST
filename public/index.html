@@ -1,0 +1,40 @@
+<!-- public/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+
+    <title>CICATV 2.0</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css"> 
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+    <!-- APP CUSTOM -->
+    <script src="js/app.js"></script>
+    
+    <!-- GOOGLE API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcgqFnJYD4baU3-9yoAKoX326jURP7rgM&callback=initMap"
+    async defer></script>
+</head>
+<body onload='loadRSS(), initMap()'>
+
+
+    <div id="left_border"></div>
+    <div id="slides"><iframe src="https://docs.google.com/presentation/d/1plP1UyVo-H0ezBWsRN87QnXp-I7e3ACSNgezWQdjrhM/embed?start=true&loop=true&delayms=10000" frameborder="0" width="1525" height="1019" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+    <div style="left:121px;top:15px;position:absolute;margin: 15px 0px 0px; display: inline-block; text-align: center; width: 264px;"><noscript><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: rgb(153, 0, 0);"><a href="" style="text-decoration: none; font-size: 13px; color: rgb(255, 255, 255);"> </a></div></noscript><script type="text/javascript" src="http://localtimes.info/clock.php?&cp1_Hex=ffffff&cp2_Hex=990000&cp3_Hex=000000&fwdt=264&ham=0&hbg=0&hfg=1&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1021"></script></div>
+    <div id="traffic_widget"></div>
+    <div id="glasLive"><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;mode=AGENDA&amp;height=345&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=digitalcica%40gmail.com&amp;color=%231B887A&amp;ctz=Europe%2FLondon" style="border-width:0" width="375" height="370" frameborder="0" scrolling="no"></iframe></div>
+    <div id="glasLiveTitle">CICA Events</div>
+    <div id="mapTitle">Live Traffic Map</div>
+    <div id="goToGlasLive">For more information on events, please check the intranet...</div>
+    <div id="cicaTV"><img id='cicalogo' src='css/images/cicatv.png'></img></div>
+    <div id="bbcNews"><img id='bbcLogo' src='css/images/BBC.png'></img></div>
+    <div id="rssContainer"><marquee class='rss' behaviour='scroll' direction='left' scrollamount='8'></marquee></div>
+
+
+</body>
+</html>
